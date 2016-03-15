@@ -21,7 +21,7 @@
 % ============================
 \begin{frame}
 	\begin{center}
-		\includegraphics[width=6cm]{SignalDistribution}
+		\includegraphics[width=6cm]{WaveForms5000}
 	\end{center}
 	\begin{alertblock}{
 		\begin{center}
@@ -66,6 +66,21 @@
 		\end{minipage}\no\s
 	\end{center}
 \end{frame}
+% new frame ============================
+\begin{frame}
+	\frametitle{Pulser}
+	\begin{center}
+		\begin{minipage}{5.5cm}
+			\centering
+			\includegraphics[width=4.5cm]{S129}
+		\end{minipage}
+		\hspace*{2pt}
+		\begin{minipage}{5.5cm}
+			\centering
+			\includegraphics[width=4.5cm]{B2}
+		\end{minipage}\no\s
+	\end{center}
+\end{frame}
 % ============================
 \subsection{Distributions}
 \begin{frame}
@@ -98,13 +113,13 @@
 	\begin{center}
 		\begin{minipage}{3.5cm}
 			\centering
-			\includegraphics[width=3.45cm]{PulserHisto0}\\
-			\includegraphics[width=3.45cm]{PulserHisto1}
+			\includegraphics[width=3.3cm]{PulserHisto0}\\
+			\includegraphics[width=3.3cm]{PulserHisto1}
 		\end{minipage}
 		\begin{minipage}{3.5cm}
 			\centering
-			\includegraphics[width=3.45cm]{PulserHisto2}\\
-			\includegraphics[width=3.45cm]{PulserHisto3}
+			\includegraphics[width=3.3cm]{PulserHisto2}\\
+			\includegraphics[width=3.3cm]{PulserHisto3}
 		\end{minipage}
 		\begin{minipage}[c][.5\textheight]{4cm}
 			\begin{itemize}
@@ -120,13 +135,13 @@
 \begin{frame}
 	\frametitle{II6B2 neg}
 	\begin{center}
-		\includegraphics[width=10cm]{AllPulserOverviewMean0}
+		\includegraphics[width=9.5cm]{AllPulserOverviewMean0}
 	\end{center}
 \end{frame}
 % ============================
 \begin{frame}
 	\begin{center}
-		\includegraphics[width=10cm]{AllPulserOverviewSigma0}
+		\includegraphics[width=9.5cm]{AllPulserOverviewSigma0}
 	\end{center}
 \end{frame}
 % ============================
@@ -147,26 +162,26 @@
 \begin{frame}
 	\frametitle{II6B2 pos}
 	\begin{center}
-		\includegraphics[width=10cm]{AllPulserOverviewMean3}
+		\includegraphics[width=9.5cm]{AllPulserOverviewMean3}
 	\end{center}
 \end{frame}
 % ============================
 \begin{frame}
 	\begin{center}
-		\includegraphics[width=10cm]{AllPulserOverviewSigma3}
+		\includegraphics[width=9.5cm]{AllPulserOverviewSigma3}
 	\end{center}
 \end{frame}
 % ============================
 \begin{frame}
 	\frametitle{S129 neg}
 	\begin{center}
-		\includegraphics[width=10cm]{AllPulserOverviewMean1}
+		\includegraphics[width=9.5cm]{AllPulserOverviewMean1}
 	\end{center}
 \end{frame}
 % ============================
 \begin{frame}
 	\begin{center}
-		\includegraphics[width=10cm]{AllPulserOverviewSigma1}
+		\includegraphics[width=9.5cm]{AllPulserOverviewSigma1}
 	\end{center}
 \end{frame}
 % ============================
@@ -187,13 +202,13 @@
 \begin{frame}
 	\frametitle{S129 pos}
 	\begin{center}
-		\includegraphics[width=10cm]{AllPulserOverviewMean2}
+		\includegraphics[width=9.5cm]{AllPulserOverviewMean2}
 	\end{center}
 \end{frame}
 % ============================
 \begin{frame}
 	\begin{center}
-		\includegraphics[width=10cm]{AllPulserOverviewSigma2}
+		\includegraphics[width=9.5cm]{AllPulserOverviewSigma2}
 	\end{center}
 \end{frame}
 % ============================
@@ -254,7 +269,7 @@
 		\end{minipage}
 	\end{center}
 \end{frame}
-% ============================
+% ============================\item 
 \begin{frame}
 	\frametitle{II6B2}
 	\begin{center}
@@ -280,9 +295,26 @@
 		\item measurements with two different pulsers:
 			\begin{itemize}
 				\item internal
+				\begin{itemize}
+				  \item reflection in front of the main pulse
+				\end{itemize}
 				\item external
+				\begin{itemize}
+				  \item should be increased 
+				\end{itemize}
 			\end{itemize}
-		\item poly has wider distribution
+		\item poly/internal has wider pulser distribution
+		\item pulser unstable/rate dependent without pedestal correction
+		\item after pedestal correction pulser signal is stable
+		\begin{itemize}
+		  \item except for high rate runs of S129 at -500V 
+		\end{itemize}
+		\item pedestal at beam interrupts rather stable with rate
+		\item pulse heights of pos and neg look similar
+		\item almost no difference in pulser pulseheight with opposite polarity 
+		\begin{itemize}
+			\item pulser signal too small?
+		\end{itemize}
 
 	\end{itemize}
 \end{frame}

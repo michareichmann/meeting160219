@@ -2,8 +2,8 @@
 \select@language {british}
 \beamer@sectionintoc {1}{Pulser}{3}{0}{1}
 \beamer@subsectionintoc {1}{1}{Waveforms}{3}{0}{1}
-\beamer@subsectionintoc {1}{2}{Distributions}{4}{0}{1}
-\beamer@subsectionintoc {1}{3}{Rate Dependence}{6}{0}{1}
-\beamer@subsectionintoc {1}{4}{Pedestals}{17}{0}{1}
-\beamer@subsectionintoc {1}{5}{Pulse Heights}{19}{0}{1}
-\beamer@sectionintoc {2}{Conclusion}{21}{0}{2}
+\beamer@subsectionintoc {1}{2}{Distributions}{5}{0}{1}
+\beamer@subsectionintoc {1}{3}{Rate Dependence}{7}{0}{1}
+\beamer@subsectionintoc {1}{4}{Pedestals}{18}{0}{1}
+\beamer@subsectionintoc {1}{5}{Pulse Heights}{20}{0}{1}
+\beamer@sectionintoc {2}{Conclusion}{22}{0}{2}
